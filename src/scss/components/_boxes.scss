@@ -1,0 +1,29 @@
+.boxes {
+    width:300px !important;
+    height: 300px !important;
+    margin:20px;
+    position: relative;
+    overflow:hidden;
+}  
+
+.box-grey {
+    background-color: $grey;
+    border: 1px solid $darkgrey;
+    box-shadow: $shadow;
+}
+
+.box-red {
+    background-color: $red;
+    h1 {
+        color:#ffff;
+    }
+}
+
+.inter-box {
+    background-color:#000;
+    padding:0 0 30px 0;
+    margin: 50px 0 8px 8px;
+    height: 240px;
+    padding:15px 0 15px 15px;
+}
+
